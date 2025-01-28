@@ -13,11 +13,13 @@ Above is the high level diagram depicting the InsureIt claims handling procedure
 # Enter and Screen Claim
 <img width="1081" alt="Screenshot 2025-01-28 at 4 07 04 PM" src="https://github.com/user-attachments/assets/2d47f985-bae4-4dab-99f8-907128d15be1" />
 This initial subprocess is the beginning of the procedure to handle a claim. It begins when the claim is received from the customer. The junior claims handler will enter the details of the case and perform a basic check to validate if the claim is covered by insurance. The claim will be accepted 98% of the time and move on to the next step. If the claim is rejected, the process will end and the customer will be notified.
+
 # Classify Claim and Authorize Request 
 <img width="1080" alt="Screenshot 2025-01-28 at 4 07 37 PM" src="https://github.com/user-attachments/assets/81ad8edd-22b8-4490-bb4d-8690bafff3be" />
 If the claim is covered by insurance, the senior claims handler will evaluate it and determine if it is short-term or long-term. It is long-term 80% of the time and will require customer authorization. The customer has 14 days to authorize before it is terminated and the process ends. Once the junior claims handler has received authorization, they will request necessary medical reports. Both short-term and long-term claims will be assessed before payments are scheduled.
 
-# Trigger and Schedule Payments<img width="1077" alt="Screenshot 2025-01-28 at 4 08 12 PM" src="https://github.com/user-attachments/assets/b870d91f-e214-4d8d-8421-2d50bc997c1e" />
+# Trigger and Schedule Payments
+<img width="1077" alt="Screenshot 2025-01-28 at 4 08 12 PM" src="https://github.com/user-attachments/assets/b870d91f-e214-4d8d-8421-2d50bc997c1e" />
 Once the claim is assessed, the senior claims handler will notify the customer with their decision to accept or reject the claim. If the claim is rejected, the process will end. If the claim is accepted, the Chief Financial Officer will schedule the payments and the process will end, as well.
 
 # Cycle Time Efficiency
