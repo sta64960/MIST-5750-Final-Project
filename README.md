@@ -1,8 +1,8 @@
 # MIST-5750-Final-Project
-T.J. Anderson
-Saahil Bapat
-Saniya Bedi
-Hubah Akhtar
+T.J. Anderson,
+Saahil Bapat,
+Saniya Bedi,
+Hubah Akhtar,
 Elyssa Abbott
 
 # Executive Summary
