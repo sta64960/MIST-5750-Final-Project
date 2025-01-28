@@ -1,5 +1,9 @@
 # MIST-5750-Final-Project
-T.J. Anderson, Saahil Bapat, Saniya Bedi, Hubah Akhtar, and Elyssa Abbott
+T.J. Anderson
+Saahil Bapat
+Saniya Bedi
+Hubah Akhtar
+Elyssa Abbott
 
 # Executive Summary
 This report details our analysis of the InsureIT Case Scenario, as well as the deconstruction and redesign of the process. The scenario itself illustrates the progression of handling claims from the initial request to the scheduling of the monthly payments. The analysis consists of the existing process model and calculations to gauge cycle time efficiency. Our team deconstructed the existing process into three distinct subprocesses: enter and screen claim, classify claim and authorize request, and trigger and schedule payments. We depicted both the high level and the subprocesses using a Business Process Model via Signavio.
