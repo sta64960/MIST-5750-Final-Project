@@ -1,4 +1,6 @@
 # MIST-5750-Final-Project
+T.J. Anderson, Saahil Bapat, Saniya Bedi, Hubah Akhtar, and Elyssa Abbott
+
 # Executive Summary
 This report details our analysis of the InsureIT Case Scenario, as well as the deconstruction and redesign of the process. The scenario itself illustrates the progression of handling claims from the initial request to the scheduling of the monthly payments. The analysis consists of the existing process model and calculations to gauge cycle time efficiency. Our team deconstructed the existing process into three distinct subprocesses: enter and screen claim, classify claim and authorize request, and trigger and schedule payments. We depicted both the high level and the subprocesses using a Business Process Model via Signavio.
 For deliverable two, the report shows our calculations for actual cycle time, theoretical cycle time, and cycle time efficiency. The theoretical cycle time illustrates an ideal process with no wait times, whereas actual cycle time takes into account possible delays. The actual cycle time was then compared to the theoretical cycle time to determine the cycle time efficiency. These various computations helped us to locate areas for process improvement and bottlenecks for the redesign.
@@ -55,4 +57,13 @@ addressing people, process, and technology components. Firstly, it is essential 
 process flow by placing the customer authorization form at the beginning will facilitate the swift gathering of essential information, eliminating unnecessary delays. This adjustment adheres to the design principle of "customer focus," as it prioritizes the needs and convenience of the customer throughout the process. Creating the To-Be Process Model based on these recommendations would involve visualizing a streamlined workflow where data entry is automated, customer authorization forms are prioritized at the outset, and strict timelines are enforced for the submission of medical reports. This model would depict a more efficient and customer-centric process, reducing processing times and improving overall satisfaction. In conclusion, the team implemented a transactional redesign approach by tackling problems and resolving them one step at a time. The solutions occur at each part of the process, but the automation using a system transforms the claims handling procedure by optimizing the claims handlers.
 
 # To-Be Process Model
-;
+<img width="805" alt="Screenshot 2025-01-28 at 4 26 10 PM" src="https://github.com/user-attachments/assets/e27ad93d-a2c6-4d11-92ba-17462c03611a" />
+
+# Enter and Screen Claim
+<img width="804" alt="Screenshot 2025-01-28 at 4 26 49 PM" src="https://github.com/user-attachments/assets/568865b8-6fd3-4857-b62b-705c70157e0f" />
+
+# Classify Claim and Authorize Request
+<img width="801" alt="Screenshot 2025-01-28 at 4 27 05 PM" src="https://github.com/user-attachments/assets/f6d310ec-2ca1-4822-92cd-b9201b589405" />
+
+# Trigger and Schedule Payments
+<img width="804" alt="Screenshot 2025-01-28 at 4 27 25 PM" src="https://github.com/user-attachments/assets/2346141f-9eb4-4778-b560-9ea6a171cd5b" />
