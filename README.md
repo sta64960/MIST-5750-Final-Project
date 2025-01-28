@@ -6,17 +6,20 @@ In order to ensure we did not miss an area for improvement within the process, t
 With the combination of analysis tools, the team has concluded that a redesign is necessary for this process to run smoothly in future transactions. We plan to implement changes in each subprocess. The first change will be an automated system that will perform the initial basic check as the junior claims handler enters the customer’s details. Next, the team would like to move the customer authorization to the start of the process to quickly gather all of the necessary information. We also plan to decrease the time it takes for a claim to be terminated after requesting customer authorization. After the allotted time, the customer will be routed to restart the process to increase urgency. The main theme of these changes are automating the process in order to eliminate manual data entry, as well as decreasing wait times. Our hopes are that this will increase cycle time efficiency and allow activities to happen simultaneously. The team included an additional business process model to illustrate these changes.
 In conclusion, using sufficient analysis it is clear that the InsureIT claims handling process is not operating as efficiently as possible. With our redesign approach, wait times will decrease and cycle time efficiency will increase. The process will occur smoothly with less frustration and areas for mistakes to be made.
 # As-Is Process Model
-<img width="1084" alt="Screenshot 2025-01-28 at 4 06 33 PM" src="https://github.com/user-attachments/assets/bcd6bea2-5da5-425d-a95c-5d3187467f97" />
+<img width="1084" alt="Screenshot 2025-01-28 at 4 06 33 PM" src="https://github.com/user-attachments/assets/955460e3-4bbb-463a-a16a-be73637e0d01" />
 
 Above is the high level diagram depicting the InsureIt claims handling procedure. The process is broken into three main steps: entering and screening the claim, classifying the claim and authorizing the request, and scheduling the payments. The process begins when a claim is received, where it will be screened and accepted or rejected. The claim will then be classified as a short-term or long-term claim, where additional authorizations may be necessary. Lastly, payments will be scheduled and triggered, which concludes the process.
 # Enter and Screen Claim
-<img width="1081" alt="Screenshot 2025-01-28 at 4 07 04 PM" src="https://github.com/user-attachments/assets/01a4d451-93ca-4242-b20a-15c320adacf1" />
+<img width="1081" alt="Screenshot 2025-01-28 at 4 07 04 PM" src="https://github.com/user-attachments/assets/6dd2b659-79bd-4c64-a693-b59bce62e444" />
 
 This initial subprocess is the beginning of the procedure to handle a claim. It begins when the claim is received from the customer. The junior claims handler will enter the details of the case and perform a basic check to validate if the claim is covered by insurance. The claim will be accepted 98% of the time and move on to the next step. If the claim is rejected, the process will end and the customer will be notified.
 # Classify Claim and Authorize Request 
+<img width="1440" alt="Screenshot 2025-01-28 at 4 07 29 PM" src="https://github.com/user-attachments/assets/6847a14a-efc3-4892-9273-363691132d16" />
 
 If the claim is covered by insurance, the senior claims handler will evaluate it and determine if it is short-term or long-term. It is long-term 80% of the time and will require customer authorization. The customer has 14 days to authorize before it is terminated and the process ends. Once the junior claims handler has received authorization, they will request necessary medical reports. Both short-term and long-term claims will be assessed before payments are scheduled.
 # Trigger and Schedule Payments
+<img width="1080" alt="Screenshot 2025-01-28 at 4 07 37 PM" src="https://github.com/user-attachments/assets/ab1e0318-7b25-4f06-a2cb-1eedb7c3bb8e" />
+
 Once the claim is assessed, the senior claims handler will notify the customer with their decision to accept or reject the claim. If the claim is rejected, the process will end. If the claim is accepted, the Chief Financial Officer will schedule the payments and the process will end, as well.
 # Cycle Time Efficiency
 Total TCT = 105.84 minutes
