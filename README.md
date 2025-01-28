@@ -14,6 +14,7 @@ Above is the high level diagram depicting the InsureIt claims handling procedure
 
 This initial subprocess is the beginning of the procedure to handle a claim. It begins when the claim is received from the customer. The junior claims handler will enter the details of the case and perform a basic check to validate if the claim is covered by insurance. The claim will be accepted 98% of the time and move on to the next step. If the claim is rejected, the process will end and the customer will be notified.
 # Classify Claim and Authorize Request 
+
 If the claim is covered by insurance, the senior claims handler will evaluate it and determine if it is short-term or long-term. It is long-term 80% of the time and will require customer authorization. The customer has 14 days to authorize before it is terminated and the process ends. Once the junior claims handler has received authorization, they will request necessary medical reports. Both short-term and long-term claims will be assessed before payments are scheduled.
 # Trigger and Schedule Payments
 Once the claim is assessed, the senior claims handler will notify the customer with their decision to accept or reject the claim. If the claim is rejected, the process will end. If the claim is accepted, the Chief Financial Officer will schedule the payments and the process will end, as well.
