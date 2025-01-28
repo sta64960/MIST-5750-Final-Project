@@ -6,8 +6,12 @@ In order to ensure we did not miss an area for improvement within the process, t
 With the combination of analysis tools, the team has concluded that a redesign is necessary for this process to run smoothly in future transactions. We plan to implement changes in each subprocess. The first change will be an automated system that will perform the initial basic check as the junior claims handler enters the customer’s details. Next, the team would like to move the customer authorization to the start of the process to quickly gather all of the necessary information. We also plan to decrease the time it takes for a claim to be terminated after requesting customer authorization. After the allotted time, the customer will be routed to restart the process to increase urgency. The main theme of these changes are automating the process in order to eliminate manual data entry, as well as decreasing wait times. Our hopes are that this will increase cycle time efficiency and allow activities to happen simultaneously. The team included an additional business process model to illustrate these changes.
 In conclusion, using sufficient analysis it is clear that the InsureIT claims handling process is not operating as efficiently as possible. With our redesign approach, wait times will decrease and cycle time efficiency will increase. The process will occur smoothly with less frustration and areas for mistakes to be made.
 # As-Is Process Model
+<img width="1084" alt="Screenshot 2025-01-28 at 4 06 33 PM" src="https://github.com/user-attachments/assets/bcd6bea2-5da5-425d-a95c-5d3187467f97" />
+
 Above is the high level diagram depicting the InsureIt claims handling procedure. The process is broken into three main steps: entering and screening the claim, classifying the claim and authorizing the request, and scheduling the payments. The process begins when a claim is received, where it will be screened and accepted or rejected. The claim will then be classified as a short-term or long-term claim, where additional authorizations may be necessary. Lastly, payments will be scheduled and triggered, which concludes the process.
 # Enter and Screen Claim
+<img width="1081" alt="Screenshot 2025-01-28 at 4 07 04 PM" src="https://github.com/user-attachments/assets/01a4d451-93ca-4242-b20a-15c320adacf1" />
+
 This initial subprocess is the beginning of the procedure to handle a claim. It begins when the claim is received from the customer. The junior claims handler will enter the details of the case and perform a basic check to validate if the claim is covered by insurance. The claim will be accepted 98% of the time and move on to the next step. If the claim is rejected, the process will end and the customer will be notified.
 # Classify Claim and Authorize Request 
 If the claim is covered by insurance, the senior claims handler will evaluate it and determine if it is short-term or long-term. It is long-term 80% of the time and will require customer authorization. The customer has 14 days to authorize before it is terminated and the process ends. Once the junior claims handler has received authorization, they will request necessary medical reports. Both short-term and long-term claims will be assessed before payments are scheduled.
@@ -26,27 +30,7 @@ Waste analysis, a counterpart to value-added analysis, scrutinizes processes fro
 # Issue Register
 The issue register highlights three priority concerns affecting claim processing efficiency at the organization. The delay in obtaining medical reports from health providers, customers failing to provide authorization within the specified timeframe, and invalid basic checks all pose challenges that can lead to increased processing time, potential backlog of claims, and customer dissatisfaction. Addressing these issues promptly is crucial to maintain operational efficiency, minimize delays, and uphold customer satisfaction. Delay in obtaining medical reports from health providers and customers failing to provide authorization for obtaining medical reports within the specified timeframe are both identified as top priorities (Priority 1 and 2, respectively). These delays lead to customer dissatisfaction, potential backlog of claims, increased processing time, and possible financial penalties for delayed claim processing. Additionally, errors made by customers in providing accurate information, categorized as Priority 3, contribute to increased workload and cause backlog to process further claims. Addressing these issues promptly is crucial to maintain operational efficiency, mitigate delays, and ensure a positive customer experience.
 # Why-Why Analysis
-Issue: Claims are delayed due to obtaining medical ports, why?
-● Junior claims handler takes 10 minutes to request authorization from customer for
-medical reports, why?
-○ Manually writing and sending of requests as opposed to automated requesting
-system
-● Variability in customer responsiveness for authorization, why?
-○ Customers are given 14 days to provide authorization before a claim is terminated ○ Customers delay or don’t give authorization at all, why?
-■ Customers may have a lack of urgency for the necessity of authorization, why?
-● Lack of communication detailing authorization importance form insurance company
-■ Communication mediums may not be standardized
-● After authorization, Junior claims handler takes 10 minutes to send for medical reports,
-why?
-○ Manually writing and sending requests as opposed to automated requesting
-system
-● Variability of responsiveness of medical providers of, why?
-○ Some providers may take up to 30 days to respond with the average being 14 days, why?
-Analysis:
-■ Primary concern of medical providers may not be cooperating in insurance claims process
-■ Lack of repercussions for longer response times
-■ Different policies/levels of cooperation in dealing with requests by
-providers
+
 
 The Why-Why diagram is meant to diagnose the causes for why certain bottleneck areas may be occurring. It is a way to comprehensively view the underlying causes for, in this case, contributors to delays in insurance processing for long-term claims. Different issues are questioned, and then the reason for their occurrence is further questioned to get a complete overview of why delays appear in the process. Analyzing the factors for why certain delays may be occurring, and why those factors are occurring is helpful in eventually determining potential changes to certain process elements to increase efficiency. This specific diagram breaks down which delays may occur in obtaining medical reports in nested bullet-point form.. Differing reasons for why these delays may occur are highlighted, such as the amount of time it takes for claims handlers to manually request authorization and reports as well as variability of customers and medical providers. Seeing why each factor contributes to delays is crucial in diagnosing potential solutions to increase efficiency. For example, automated request responses would
 decrease the delays associated with manually sending requests. Another example of this is looking at the variability in customer responsiveness for receiving claim authorization. Knowing that customers may be waiting till the end of their allotted time to send authorization could lead to shortening the allowed time, instilling more urgency into the customer. Alternatively, improving communication with the customer about the importance of receiving swift authorization could help decrease delays. These potential solutions become more clear after performing a why-why analysis and seeing increasingly specific reasons for delays, which allow for a comprehensive view for why delays may be occurring in the process. The diagram becomes a helpful guide when suggesting different improvements to the process to potentially implement into a to-be diagram.
