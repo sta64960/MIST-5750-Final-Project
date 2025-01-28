@@ -1,13 +1,13 @@
 # MIST-5750-Final-Project
 
 # Team Members
-T.J. Anderson,
+T.J. Anderson
 
-Saahil Bapat,
+Saahil Bapat
 
-Saniya Bedi,
+Saniya Bedi
 
-Hubah Akhtar,
+Hubah Akhtar
 
 Elyssa Abbott
 
